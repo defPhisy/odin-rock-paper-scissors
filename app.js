@@ -37,7 +37,6 @@ function askUserForGame() {
 
 function playGame() {
   let pcChoice = pickRandomShape();
-  console.log(pcChoice);
   let userChoice = askUserShape();
 
   processWinner(userChoice, pcChoice);
